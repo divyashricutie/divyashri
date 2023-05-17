@@ -8,3 +8,18 @@ data_ingestion_config:
   ingested_dir: ingested_data
   ingested_train_dir: train
   ingested_test_dir: test 
+
+data_validation_config:
+  schema_dir: config
+  schema_file_name: schema.yaml
+
+data_transformation_config:
+  transformed_dir: transformed_data
+  transformed_train_dir: train
+  transformed_test_dir: test
+  preprocessing_dir: preprocessed
+  preprocessed_object_file_name: preprocessed.pkl
+
+  
+
+  
